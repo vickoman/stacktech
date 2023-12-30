@@ -1,7 +1,14 @@
-import React from "react";
+import { UserButton } from "@clerk/nextjs";
 
 function Home() {
-  return <div>Home vickoman</div>;
+  return (
+    <div>
+      <h1>Vickoman APP</h1>
+      <div>
+        <UserButton afterSignOutUrl="/" />
+      </div>
+    </div>
+  );
 }
 
 export default Home;
