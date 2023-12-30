@@ -10,6 +10,7 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.1",
     "@tailwindcss/typography": "^0.5.10",
     "eslint-config": "^0.3.0",
     "eslint-config-prettier": "^9.1.0",
