@@ -17,7 +17,7 @@ const spaceGrotesk = Space_Grotesk({
   variable: "--font-spaceGrotesk",
 });
 export const metadata: Metadata = {
-  title: "DevFlow",
+  title: "DevTech",
   description: "A community for developers to share their knowledge",
   icons: {
     icon: "/assets/images/site-logo.svg",
